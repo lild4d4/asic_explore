@@ -1,4 +1,4 @@
-module contador(input osc_clk, input en, input reset, input clk, output reg [8:0] count);
+module contador#(parameter N = 8)(input osc_clk, input en, input reset, input clk, output reg [N-1:0] count);
 
 reg aux;
 reg pre_aux;

@@ -13,7 +13,8 @@ end
 
 always @(posedge clk) begin
 	if(reset) promedio <= 0;
-	else if(contador == 15) promedio <= promedio/15;
+	else if(contador == 0) promedio <= 0;
+	else if(contador == 15) promedio <= promedio/14;
 	else if(en) promedio <= promedio + in;
 end	
 	

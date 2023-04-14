@@ -1,0 +1,7 @@
+{
+    "DESIGN_NAME": "debouncer_FSM",
+    "VERILOG_FILES": "../../debouncer_FSM.v",
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "DESIGN_IS_CORE": true
+}
